@@ -1403,20 +1403,37 @@
 
 //---------------------------------------------------------//
 
-function calculateCartPrice(...num1) {
-    return num1
+// function calculateCartPrice(...num1) {
+//     return num1
 
-}
+// }
 // console.log(calculateCartPrice(200, 400, 500, 200))
 
-//  Object function in js //
+// Object function in Javascript ...................................//
 
-const user = {
-    username: 'Bantu',
-    price : 199,
+// const user = {
+//     username: 'Bantu',
+//     prices: 199,
+
+// }
+
+// function handleObject(anyobject) {
+//     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+
+// }
+// // handleObject(user)
+// handleObject({
+//     username: 'sam',
+//     price: 399
+// })
+
+// function in Array .......................//
+
+const myNewArray = [200, 400, 100, 600];
+
+function returnSecondValue(getArray) {
+    return getArray[1]
 
 }
-
-function handleObject (anyobject){
-
-}
+// console.log(returnSecondValue(myNewArray))
+console.log(returnSecondValue([200, 400, 500, 1000]))
