@@ -1,6 +1,5 @@
-//  question No 1. N = 5, star question. //
-
 // const e = require("express");
+//  question No 1. N = 5, star question. //
 // let N =5;
 // for(let i=1; i<=N; i++){
 //     star = '';
@@ -467,11 +466,6 @@
 // }
 
 // console.log("Duplicate numbers:", d);
-
-
-
-
-
 
 
 

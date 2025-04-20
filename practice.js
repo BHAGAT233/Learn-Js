@@ -1429,12 +1429,45 @@
 
 // function in Array .......................//
 
-const myNewArray = [200, 400, 100, 600];
+// const myNewArray = [200, 400, 100, 600];
 
-function returnSecondValue(getArray) {
-    return getArray[1]
+// function returnSecondValue(getArray) {
+//     return getArray[1]
 
-}
+// }
 // console.log(returnSecondValue(myNewArray))
-console.log(returnSecondValue([200, 400, 500, 1000]))
+// console.log(returnSecondValue([200, 400, 500, 1000]))
 
+
+
+let int = require('readline-sync');
+let N = int.questionInt('ENter the value: ')
+
+let a = [1, 2, 3, 4, 5, 6];
+
+for(let i = 0; i<a.length; i++){
+    if(i === N){
+        console.log(a[i]);
+    }
+    
+}
+
+// let int = require('readline-sync');
+// let N = int.questionInt('Enter the index to remove: ');
+
+// let a = [1, 2, 3, 4, 5, 6];
+
+// // Check if N is a valid index
+// if (N >= 0 && N < a.length) {
+//     // Remove element at index N
+//     a.splice(N, 1);
+//     console.log('Updated array:', a);
+// } else {
+//     console.log('Invalid index entered');
+// }
+
+
+
+
+
+ 
