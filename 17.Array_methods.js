@@ -25,8 +25,8 @@ let num = [1, 2, 3, 34, 4];
 
 // ----------------------------------------------------------------------------------------------------//
 
-// let e = num.unshift(78); // Adds an elements to the start of the array, Array ke first me new elements add kartha hai //
-// console.log(e, num); 
+let e = num.unshift(78); // Adds an elements to the start of the array, Array ke first me new elements add kartha hai //
+console.log( num); 
 
 // ----------------------------------------------------------------------------------------------------//
 

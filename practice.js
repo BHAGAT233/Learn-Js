@@ -686,11 +686,11 @@
 // SECOND EXAMPLE IN Fibonacci Series //
 
 // let bhagat = require('prompt-sync')();
-// let N = bhagat.questionInt('Enter the Value: '); // यूज़र से इनपुट लेना
+// let N = bhagat.question('Enter the Value: ');
 // let a = 0;
 // let b = 1;
 
-// console.log("Fibonacci Series:");
+// // console.log("Fibonacci Series:");
 
 // while (a <= N) { // 'a' तक सीरीज़ को प्रिंट करना
 //     console.log(a); // 'a' को प्रिंट करना
@@ -1390,7 +1390,9 @@
 // }
 // let result = addtwoNumbers(3, 5)
 // console.log('result: '+result);
+
 //------------------------------------------------------//
+
 // function loginUserMessage(username = 'sam') {
 //     if(!username){
 //         console.log('place enter a username');
@@ -1398,7 +1400,7 @@
 //     }
 //     return `${username} just logged in`
 // }
-// // console.log(loginUserMessage('Bantu'))
+// console.log(loginUserMessage('Bantu'))
 // console.log(loginUserMessage('bantu'));
 
 //---------------------------------------------------------//
@@ -1421,7 +1423,7 @@
 //     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 
 // }
-// // handleObject(user)
+// handleObject(user)
 // handleObject({
 //     username: 'sam',
 //     price: 399
@@ -1440,17 +1442,10 @@
 
 
 
-let int = require('readline-sync');
-let N = int.questionInt('ENter the value: ')
+// let int = require('readline-sync');
+// let N = int.questionInt('ENter the value: ')
+// let a = [1, 2, 3, 4, 5, 6];
 
-let a = [1, 2, 3, 4, 5, 6];
-
-for(let i = 0; i<a.length; i++){
-    if(i === N){
-        console.log(a[i]);
-    }
-    
-}
 
 // let int = require('readline-sync');
 // let N = int.questionInt('Enter the index to remove: ');
@@ -1468,6 +1463,183 @@ for(let i = 0; i<a.length; i++){
 
 
 
+// let a = [1, 2, 3, 4, 5, 6]
+// let b = a.length;
+
+// if(N<a.length){
+//     a.splice(N,1)
+//         console.log(a);
+// }
+// else console.log('invalide index: ');
+
+// ---------------------------------------------------------------//
 
 
- 
+// let int = require('readline-sync');
+// let c = int.questionInt('enter the value: ')
+
+// let hasDL = true
+// function drivingEligibility(age,hasDL) {
+//   let isAdult = true;
+// 	//  Only change code below this line
+// 	isAdult = age>=18 && hasDL
+// 	return age && isAdult
+// }
+// console.log(drivingEligibility(age,hasDL))
+
+
+// let a = 10, b = 20, c = 11;
+// if (a++ > 0 || b-- > 0 && --c == 10) {
+//   console.log("Condition is true.");
+// } else {
+//   console.log("Condition is false.");
+// }
+// console.log(a, b, c);
+
+
+
+// let day = 3;
+
+// switch(day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 3:
+//     console.log("Wednesday");
+//     break;
+//   case 4:
+//     console.log("Thursday");
+//     break;
+//   default:
+//     console.log("Invalid day");
+// }
+
+
+// Vowel or Consonant
+// Take a character input and check whether it's a vowel or a consonant using switch.
+
+//  let day = 3;
+// switch(day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 3:
+//     console.log("Wednesday");
+//     break;
+//   case 4:
+//     console.log("Thursday");
+//     break;
+//   default:
+//     console.log("Invalid day");
+// }
+
+// let i = 0;
+//  while(i<5){
+//         console.log(i);
+//         i++
+//      }
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+// let num1 = 10;
+// let num2 = 5;
+// let operator = "*";
+// let result;
+
+// switch (operator) {
+//   case "+":
+//     result = num1 + num2;
+//     break;
+//   case "-":
+//     result = num1 - num2;
+//     break;
+//   case "*":
+//     result = num1 * num2;
+//     break;
+//   case "/":
+//     result = num1 / num2;
+//     break;
+//   default:
+//     console.log("Invalid operator");
+//     break;
+// }
+
+// if (result !== undefined) {
+//   console.log("Result:", result);
+// }
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+// swap even odd number in array //
+
+// let arr = [1,1,2,2,3,3,4,4,5,5,6,6]
+// function oddEvenSwap(arr) {
+//     for (let i = 0; i < arr.length - 1; i += 2) {
+//       // Only swap if the two elements are different
+//       if (arr[i] !== arr[i + 1]) {
+//         [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]];
+//       }
+//     }
+//     return arr;
+//   }
+//   console.log(oddEvenSwap(arr))
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+// ek kiladi 100 run par kitane six marsakta hain vaha hame nikalana haun. 
+// let int = require('prompt-sync')();
+// let X = Number(int('Enter the vaue:'))
+// let a = X%6
+// let b = (X-a)/6
+// console.log(b);
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+// hamare pas 10 floor hain aur har floor par 10 room hain aur hame room No 2 se room No. 55 par jana hain to hame kitne floor jana padega yaha count karna padega.
+
+// let int = require('readline-sync');
+// let room1 = int.questionInt('enter the present room: ')
+// let room2 = int.questionInt('enter room where you want go: ')
+// let b = ((room2-room1)/10)
+// let c = (b-(b%1))
+// console.log(`You should go to floor no ${c}`);
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+// print prime number in function  //
+
+// function printPrimes(N) {
+//     const primes = [];
+//     for (let i = 2; i <= N; i++) {
+//         let j = 1;
+//         let count = 0;
+//         while (j <= i) {
+//             if (i % j === 0) {
+//                 count++;
+//             }
+//             j++;
+//         }
+//         if (count === 2) {
+//             primes.push(i); 
+//         }
+//     }
+//     return primes;
+// }
+// console.log(printPrimes(25))
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+// remove Decimal without method //
+// let a = 54.6;
+// let b = a - (a % 1); // This removes the decimal part
+// console.log(b); // Output: 54
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+

@@ -445,7 +445,7 @@ An additional surcharge of 20% is added to the bill */
 //         }
 //         j++;
 //     }
-//     if (count == 2){
+//     if (count === 2){
 //         console.log(`this is prime number ${i} `);
 //     }else{
 //         continue;

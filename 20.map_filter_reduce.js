@@ -1,15 +1,15 @@
-//1. Array, .map() method, हर item पर कुछ बदलाव करता है और नया array बनाता है,Example: किसी संख्या को दोगुना करना //
+//1. Array, .map() method, har item par kuch बदलाव karta hain और new array बनाता hain,Example: kisi sankya ko dogana karna //
 
 // let arr = [45, 23, 21]
 // let a = arr.map((value, index, Array)=>{
-//     console.log(value, index, Array);
+//     // console.log(value, index, Array);
 //     return value +index;
 // })
 // console.log(a);
 
 // End Of the question No. 1// 
 
-//2. Array, .filter() method, कुछ items को छाँटकर नया array बनाता है,Example: 10 se greater_than Number print karna// 
+//2. Array, .filter() method, kuch items ko छाँटकर new array बनाता haini,Example: 10 se greater_than Number print karna// 
 
 // let arr1 = [45, 23, 21, 0, 3, 5]
 // let a1= arr1.filter((b)=>{
@@ -19,7 +19,7 @@
 
 // End of the Question No. 2//
 
-//3. Array, .reduce() method, सभी values को मिलाकर एक single value में बदलता है, Example:Total जोड़ निकालना//
+//3. Array, .reduce() method, सभी values ko मिलाकर एक single value में बदलता है, Example:Total total nikalna//
 
 // let arr2 = [1, 2, 3, 5, 2, 1]
 
