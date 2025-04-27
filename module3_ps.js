@@ -285,9 +285,10 @@
 
 // QUESTION NO 20. take 3 numbers from the user and output the second max of 3 numbers. //
 
-// let a = input.questionInt ('Enter the value of a: ')
-// let b = input.questionInt ('Enter the value of a: ')
-// let c = input.questionInt ('Enter the value of a: ')
+// let int = require('readline-sync');
+// let a = int.questionInt ('Enter the value of a: ')
+// let b = int.questionInt ('Enter the value of a: ')
+// let c = int.questionInt ('Enter the value of a: ')
 
 // a > b && a > c ? b > c ? console.log(b) : console.log(c) : b > a && b > c ? a > c ? console.log(a) : console.log(c) : a > b ? console.log(a) : console.log(b);
 

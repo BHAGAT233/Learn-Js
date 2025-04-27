@@ -53,9 +53,9 @@
 
 // Question No 5. slice method //
 
-// let num1 = [182, 42, 63, 84, 35, 86, 167, 1];  // slice out a pice frome an Array It creat a new Array. slice method new Array creat karta hai. //
-// let newnum = num1.slice(1, 3)
-// console.log(newnum);
+let num1 = [182, 42, 63, 84, 35, 86, 167, 1];  // slice out a pice frome an Array It creat a new Array. slice method index ko slice out karta hain aur new Array creat karta hai. //
+let newnum = num1.slice(3,5)
+console.log(newnum);
 // console.log(num1.slice(1, 5));
 
 // end question No.5. //

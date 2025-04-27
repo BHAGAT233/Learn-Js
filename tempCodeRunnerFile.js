@@ -1,3 +1,2 @@
-4.5
-
-// console.log(a);
+y name';
+// console.log(a.split(' '));

@@ -6,13 +6,13 @@
 // }
 // console.log(sum);
 
-let marks = {
-    harry: 90,
-    shubham: 9,
-    lovish: 56,
-    monika: 4,
-}
-for (let i = 0; i <Object.keys(marks).length; i++) {
-    console.log(('the marks of ' + Object.keys(marks)[i] + ' are ' + marks[Object.keys(marks)[i]]));
+// let marks = {
+//     harry: 90,
+//     shubham: 9,
+//     lovish: 56,
+//     monika: 4,
+// }
+// for (let i = 0; i <Object.keys(marks).length; i++) {
+//     console.log(('the marks of ' + Object.keys(marks)[i] + ' are ' + marks[Object.keys(marks)[i]]));
     
-}
+// }

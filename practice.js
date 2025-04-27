@@ -223,7 +223,6 @@
 // question No 18. esa program me first 10 days ka 5 rupies, 5 days ka 10rupies, 3 days ka 15 rupies and bhache days ka 20 rupies  ho jayega in sab ka totale money nikalna hai. //
 
 // let input = require('readline-sync')
-
 // let days = input.questionInt('Enter the days: ')
 
 // let total = 0;
@@ -245,10 +244,11 @@
 // ------------------------------------------------------------------------------------------------------//
 // question No 19.  take 4 number and print second max //
 
-// let a = input.questionInt('Enter the first number: ')
-// let b = input.questionInt('Enter the second number:')
-// let c = input.questionInt('Enter the third number: ')
-// let d = input.questionInt('Enter the fourth number:')
+// let int = require('readline-sync')
+// let a = int.questionInt('Enter the first number: ')
+// let b = int.questionInt('Enter the second number:')
+// let c = int.questionInt('Enter the third number: ')
+// let d = int.questionInt('Enter the fourth number:')
 
 // if(a > b && a > c && a < d ||(a > b && a < c && a > d)|| (a < b && a > c && a > d)){
 //     console.log(a);
@@ -1642,4 +1642,93 @@
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
 
+// let a = 843;
+// let count = 0;
+// a= a%10
+// count++
+// a = a/10
+
+// console.log(count);
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+// Collatz Sequence Generator in function 
+
+// let int = require('prompt-sync')();
+// let N = Number(int('Enter the number: '));
+
+// function collatz (N){
+//     let arr = []
+//     while (N>1) {
+//         arr.push(N)
+//         if(N%2==0){
+//             N = N/2
+//         }
+//         else{
+//             N = 3*N+1;
+//         }
+//     }
+//     arr.push(1)
+//     return arr
+// }
+// console.log(collatz (N))
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+// Circular Array Rotation in function 
+
+// let arr = [1, 2, 3, 4, 5]
+// let num = 4;
+// function CircularArrayRotation (arr, num){
+//     // let num = 3;
+//     let a = arr.slice(-num)
+//      let b = arr.slice(0, -num)
+//      let c = a.concat(b)
+
+//      return c ; 
+// }
+// console.log(CircularArrayRotation (arr, num))
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+//  skip PerfectSquares number in function 
+
+// function skipPerfectSquares(N) {
+//     let arr = [];
+//     let arr1 = []
+//     for (let i = 2; i < N; i++) {
+//         let a = false;
+//         for (let j = 1; j <= i; j++) {
+//             if (j * j === i) {
+//                 arr1.push(i)
+//                 a = true
+//             }
+//         }
+//         if (!a) {
+//             arr.push(i)
+//         }
+
+//     }
+//     // console.log(arr1)
+//     return [arr1, arr];
+// }
+// console.log(skipPerfectSquares(20))
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+
+
+
+
+// let int = require('readline-sync');
+// let a = int.questionInt('Enter the number:')
+// let b = int.questionInt('Enter the number:')
+// let c = int.questionInt('Enter the number:')
+// let d = int.questionInt('Enter the number:')
+// let e = int.questionInt('Enter the number:')
+// let f = int.questionInt('Enter the number:')
+// let g = int.questionInt('Enter the number:')
+// let h = int.questionInt('Enter the number:')
+
+// if()
+
+let a = [1,2,3];
+console.log(a.split(''));
 
