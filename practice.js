@@ -1692,6 +1692,49 @@
 
 // function skipPerfectSquares(N) {
 //     let arr = [];
+//     let b = 20;
+//     for (let i = 2; i<= b && i<= N; i++) {
+//         let a = false;
+
+        
+//         for (let j = 1; j <= i; j++) {
+//             if (j * j === i) {
+//                 a = true
+//             }
+//         }
+//         if (!a) {
+//             arr.push(i)
+//         }
+
+//     }
+//     return  arr;
+// }
+// console.log(skipPerfectSquares(100))
+
+// second example..............................//
+
+// function skipPerfectSquares(N) {
+//     let arr = [];
+//     for (let i = 2; i < N; i++) {
+//         let a = false;
+//         for (let j = 1; j <= i; j++) {
+//             if (j * j === i) {
+//                 a = true
+//             }
+//         }
+//         if (!a) {
+//             arr.push(i)
+//         }
+
+//     }
+//     return  arr;
+// }
+// console.log(skipPerfectSquares(10))
+
+// third example......................//
+
+// function skipPerfectSquares(N) {
+//     let arr = [];
 //     let arr1 = []
 //     for (let i = 2; i < N; i++) {
 //         let a = false;
@@ -1729,6 +1772,36 @@
 
 // if()
 
-let a = [1,2,3];
-console.log(a.split(''));
+// let a = [1,2,3,4]
+// console.log(a.split());
 
+
+// function skipPerfectSquares(N) {
+//     let arr = [];
+//     let b = 20;
+//     for (let i = 2; i<= b && i<= N; i++) {
+//         let a = false;
+
+        
+//         for (let j = 1; j <= i; j++) {
+//             if (j * j === i) {
+//                 a = true
+//             }
+//         }
+//         if (!a) {
+//             arr.push(i)
+//         }
+
+//     }
+//     return  arr;
+// }
+// console.log(skipPerfectSquares(100))
+
+
+// let int = require('readline-sync');
+// let N = int.questionInt('valeu: ')
+// let a = 20;
+// for(let i = 2; i<= a && i< N; i++){
+//     console.log(i);
+    
+// }
