@@ -203,7 +203,7 @@
 
 // -----------------------------------------------------------------------------------------------------------------//
 
-//question No.12, aaray me se number 9 chack karana hai es array me hai ki nahi//
+//question No.12, Array me se number 9 chack karana hai es array me hai ki nahi//
 
 // let arr = [1,2,3,4,5,6,7,8,9,10,0];
 // let input = require('readline-sync');
@@ -315,7 +315,7 @@
 
 // ------------------------------------------------------------------------------------------------------------------//
 
-// Question No. 17 star pattern question //
+// Question No.17 star pattern question //
 
 // let n = om.questionInt('Enter the value N: ')
 

@@ -45,17 +45,17 @@
 // question No 4. splice and slice method  //
 
 // let num = [551, 22, 3, 14, 5, 6, 7, 8, 229]; // splice can be used to add new items to an Array. Array me new items add karta hai. //
-// let b = num.splice(2, 7, 1022, 1023, 1024);
-// console.log(num,b);
-// console.log(num.splice(2, 4, 140, 505, 300));
+// // let b = num.splice(2, 7, 1022, 1023, 1024);
+// // console.log(num, b);
+// console.log(num.splice(2, 4));
 
 // end of the question4. //
 
 // Question No 5. slice method //
 
-let num1 = [182, 42, 63, 84, 35, 86, 167, 1];  // slice out a pice frome an Array It creat a new Array. slice method index ko slice out karta hain aur new Array creat karta hai. //
-let newnum = num1.slice(3,5)
-console.log(newnum);
+// let num1 = [182, 42, 63, 84, 35, 86, 167, 1];  // slice out a pice frome an Array It creat a new Array. slice method index ko slice out karta hain aur new Array creat karta hai. //
+// let newnum = num1.slice(3,5)
+// console.log(newnum);
 // console.log(num1.slice(1, 5));
 
 // end question No.5. //
@@ -67,3 +67,53 @@ console.log(newnum);
 // console.log(duplicates);
 
 // end question 6. //
+
+
+
+
+
+
+
+
+// let a = [1, 2, 3,];
+// let b = [3, 2, 1]
+
+// let c = a.concat(b)
+// let d = [];
+// for (let i = 0; i < c.length; i++) {
+//     for (let j = i + 1; j < c.length; j++) {
+//         if (c[i] === c[j]) {
+//             if(!d.includes(c[j])){
+//                 d.push(c[j])
+//             }
+//         }
+//     }
+
+// }
+// console.log(d);
+
+
+
+// let a = [1,2,3,4,5];
+// let b = [3,6,8,9,5]
+
+// function dublicat(a, b){
+//     let c = a.concat(b)
+// let d = [];
+// for (let i = 0; i < c.length; i++) {
+//     for (let j = i + 1; j < c.length; j++) {
+//         if (c[i] === c[j]) {
+//             if(!d.includes(c[j])){
+//                 d.push(c[j])
+//             }
+//         }
+//     }
+
+// }
+//     return d
+// }
+// console.log(dublicat(a, b));
+
+
+
+

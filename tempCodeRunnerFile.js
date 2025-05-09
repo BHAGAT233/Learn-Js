@@ -1,3 +1,1 @@
-
-// let a = [1,2,3,4]
-// console.log(a.split());
+3, 14, 5, 6

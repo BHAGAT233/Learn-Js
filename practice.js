@@ -199,7 +199,8 @@
 
 // question No 17. if, else if, else  Question//
 
-// let time = input.questionInt('Enter the time: ')
+// let int = require('readline-sync') 
+// let time = int.questionInt('Enter the time: ')
 
 // if (time > 1 && time <= 11){
 //     console.log('Good Morning');
@@ -211,10 +212,10 @@
 // }else if(time > 15 && time < 20){
 //     console.log('good evening');
 
-// }else{
+// }else if (time > 20 && time <=24){ 
 //     console.log('good night');
-
 // }
+// else console.log('You can only enter numbers from 1 to 24');
 
 // END OF THE QUESTION//
 
@@ -280,8 +281,8 @@
 
 // ---------------------------------------------------------------------------------------------------------------------------------------//
 
-// question No 21 perfect number (कोई भी ऐसा सकारात्मक पूर्णांक जिसके सभी धनात्मक भाजकों का योग उस संख्या के बराबर हो, लेकिन इसमें स्वयं की संख्या को शामिल न किया जाए:)//
-// (6 एक पूर्ण संख्या है क्योंकि इसके भाजक 1, 2, और 3 हैं और 1 + 2 + 3 = 6 होता है जो 6 के बराबर है। इसके विपरीत, 12 एक अधूरा संख्या है क्योंकि 1 + 2 + 3 + 4 + 6 = 16 है जो 12 से अधिक है।)//
+// Question No. 21 Perfect Number (Any positive perfection in which the sum of all positive divisors is equal to the number itself, but including the number itself):)//
+// (6 is a perfect number because it contains 1, 2, and 3, and 1 + 2 + 3 = 6, which is equal to 6. Conversely, 12 is an incomplete number because 1 + 2 + 3 + 4 + 6 = 1,6 which is greater than 12.)//
 
 // let input = require('readline-sync')
 // let n = input.questionInt('Enter the number: ')
@@ -442,12 +443,12 @@
 // question No 29.  //
 
 // // problem No 1 //
-// let marks = {
-//     harry : 90,
-//     shubham : 9,
-//     lovish : 56,
-//     monika : 4,
-// }
+let marks = {
+    harry : 90,
+    shubham : 9,
+    lovish : 56,
+    monika : 4,
+}
 // for (let i = 0 ; i <Object.keys(marks).length; i++){
 //     console.log('this marks of '+ Object.keys(marks)[i] + 'are ' + marks[Object.keys(marks)[i]]);
 
@@ -1365,7 +1366,7 @@
 
 // function in Javascript // 
 
-// normal function in js //
+//Q1. normal function in js //
 
 // function myname() {
 //     console.log('b');
@@ -1377,7 +1378,9 @@
 // }
 // myname()
 
-// function addtwoNumbers(num1, num2) {
+//++++++++++++++++++++++++++++++++++++++++++++++//
+
+//Q2. function addtwoNumbers(num1, num2) {
 //     console.log(num1+num2);
 
 // }
@@ -1393,6 +1396,7 @@
 
 //------------------------------------------------------//
 
+// Question No. 
 // function loginUserMessage(username = 'sam') {
 //     if(!username){
 //         console.log('place enter a username');
@@ -1411,7 +1415,9 @@
 // }
 // console.log(calculateCartPrice(200, 400, 500, 200))
 
-// Object function in Javascript ...................................//
+//++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+//Questiono No. 4 Object function in Javascript //
 
 // const user = {
 //     username: 'Bantu',
@@ -1429,7 +1435,8 @@
 //     price: 399
 // })
 
-// function in Array .......................//
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+//Question NO.6 function in Array //
 
 // const myNewArray = [200, 400, 100, 600];
 
@@ -1696,7 +1703,7 @@
 //     for (let i = 2; i<= b && i<= N; i++) {
 //         let a = false;
 
-        
+
 //         for (let j = 1; j <= i; j++) {
 //             if (j * j === i) {
 //                 a = true
@@ -1754,54 +1761,124 @@
 // }
 // console.log(skipPerfectSquares(20))
 
-//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+// ---------------------------------------------------------------------------------------------//
 
-
-
-
-
-// let int = require('readline-sync');
-// let a = int.questionInt('Enter the number:')
-// let b = int.questionInt('Enter the number:')
-// let c = int.questionInt('Enter the number:')
-// let d = int.questionInt('Enter the number:')
-// let e = int.questionInt('Enter the number:')
-// let f = int.questionInt('Enter the number:')
-// let g = int.questionInt('Enter the number:')
-// let h = int.questionInt('Enter the number:')
-
-// if()
-
-// let a = [1,2,3,4]
-// console.log(a.split());
-
-
-// function skipPerfectSquares(N) {
-//     let arr = [];
-//     let b = 20;
-//     for (let i = 2; i<= b && i<= N; i++) {
-//         let a = false;
-
-        
-//         for (let j = 1; j <= i; j++) {
-//             if (j * j === i) {
-//                 a = true
-//             }
-//         }
-//         if (!a) {
-//             arr.push(i)
-//         }
-
-//     }
-//     return  arr;
-// }
-// console.log(skipPerfectSquares(100))
-
+//Question No. 9 this code only run till 20 
 
 // let int = require('readline-sync');
 // let N = int.questionInt('valeu: ')
 // let a = 20;
 // for(let i = 2; i<= a && i< N; i++){
 //     console.log(i);
-    
+
 // }
+
+//---------------------------------------------------------------------------------------------------//
+
+//Question No. 10 count vowels in function //
+
+// function countVowels(str) {
+//     let count = 0;
+//     const vowels = "bhagat";
+//     for (let i = 0; i < str.length; i++) {
+//         for (let j = 0; j < vowels.length; j++) {
+//             if (str[i] === vowels[j]) {
+//                 count++;
+//             }
+//         }
+//     }
+//     return count;
+// }
+
+// console.log(countVowels("a_e_i_o_u")); 
+
+//--------------------------------------------------------------------------------------------------//
+
+//Question No. 11 codechef Question //
+
+// let int = require('readline-sync');
+// let N = int.questionInt('enter the value: ')
+// if(N%3==0){
+//     console.log(N);
+
+// }
+// else if(N%3==0){
+//     console.log( N = N-1)
+// }
+// else if((N+1)%3==0){
+//     console.log(N= N+1)
+// }
+// else{
+//     console.log(N-1)
+// }
+
+//----------------------------------------------------------------------------------------------------//
+
+//Question No. 12 Codechef question //
+
+// 5
+// [1,2,3,-3,-3] = 0;
+
+// 4
+// [1,1,-1,-1] = 0;
+
+// 6
+// [1,1,1,-1,-1,-1] = 0;
+// [1,-1,1,-1,1,-1] = 0;
+
+// 7
+// [1,1,1,1,-1,-1,-2] = 0;
+
+// 8
+// [1,1,1,1,-1,-1,-1,-1] = 0;
+
+// 9
+// [1,1,1,1,1,-1,-1,-2,-1] = 0;
+
+// let n = 9;
+
+// if(n % 2 == 0){
+//     let k=1;
+//     let arr = [];
+//     for(let i=0; i<n; i++){
+//         arr.push(k);
+//         if(k==1){
+//             k = -1;
+//         } else {
+//             k = 1;
+//         }
+//     }
+// }else{
+//     let m = (n % 2) + 1;
+//     let n = n-m;
+//     for(let i=0; i<m; i++){
+
+//     }
+// }
+
+//---------------------------------------------------------------------------------------//
+
+
+
+// const person = {
+//     name: "Bantu",
+//     age : 16,
+//     greet: function() {
+//         console.log(this.name);
+//         console.log(this.age);
+        
+//     }
+// };
+
+// person.greet();  // 👉 this = person → "Bantu"
+
+const person = {
+    name: "Bantu",
+    greet: function() {
+        let message = "Hi";
+        console.log(message + ", " + this.name);
+    }
+};
+
+person.greet();
+
