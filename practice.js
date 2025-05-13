@@ -1,3 +1,5 @@
+let input = require('readline-sync');
+
 //question No 1. Ternary Operators //
 // let age= 20
 // let a = age>=18 ? 'yes' : 'false';
@@ -444,10 +446,10 @@
 
 // // problem No 1 //
 let marks = {
-    harry : 90,
-    shubham : 9,
-    lovish : 56,
-    monika : 4,
+    harry: 90,
+    shubham: 9,
+    lovish: 56,
+    monika: 4,
 }
 // for (let i = 0 ; i <Object.keys(marks).length; i++){
 //     console.log('this marks of '+ Object.keys(marks)[i] + 'are ' + marks[Object.keys(marks)[i]]);
@@ -1866,19 +1868,118 @@ let marks = {
 //     greet: function() {
 //         console.log(this.name);
 //         console.log(this.age);
-        
+
 //     }
 // };
 
 // person.greet();  // 👉 this = person → "Bantu"
 
-const person = {
-    name: "Bantu",
-    greet: function() {
-        let message = "Hi";
-        console.log(message + ", " + this.name);
-    }
-};
+// const person = {
+//     name: "Bantu",
+//     greet: function() {
+//         let message = "Hi";
+//         console.log(message + ", " + this.name);
+//     }
+// };
 
-person.greet();
+// person.greet();
 
+
+
+// function trafficSignal(num,trafficLightColor) {
+//     //  Only change code below this line
+//     let a = stop;
+//     if(num,trafficLightColor == 10, 'red'){
+
+//     }
+//       return 
+//   }
+//   console.log(trafficSignal(10,'red'))
+
+
+
+
+// let num = 10
+// let trafficLightColor = 'Red'
+
+//   function trafficSignal(num, trafficLightColor) {
+//     // Only change code below this line
+//     if (trafficLightColor === "Red" && num >= 1 && num <= 20) {
+//       return "Stop";
+//     } else if (trafficLightColor === "Yellow" && num >= 1 && num <= 20) {
+//       return "Get ready to go";
+//     } else if (trafficLightColor === "Green" && num >= 21 && num <= 25) {
+//       return "Go";
+//     } else {
+//       return "invalid input";
+//     }
+//   }
+//   console.log(trafficSignal(num, trafficLightColor));
+  
+  
+// let num = 2;
+// let trafficLightColor = 'Yellow'
+
+// function trafficSignal(num, trafficLightColor) {
+//     if (trafficLightColor === "Red" && num >= 1 && num <= 20) {
+//         return "Stop";
+//     } else if (trafficLightColor === "Yellow" && num >= 1 && num <= 20) {
+//         return "Get ready to go";
+//     } else if (trafficLightColor === "Green" && num >= 21 && num <= 25) {
+//         return "Go";
+//     } else {
+//         return "invalid input";
+//     }
+// }
+// console.log(trafficSignal(num, trafficLightColor))
+
+
+// function countVowels(str) {
+//     let count = 0;
+//     const vowels = "aeiouAEIOU";
+//     for (let i = 0; i < str.length; i++) {
+//         if (vowels.includes(str[i])) {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// let text = input.question('Enter a string: ');
+// console.log(`Number of vowels: ${countVowels(text)}`);
+
+
+
+
+//-------------------------------------------------------------------------------------//
+
+// let price = input.questionInt('Enter the number: ');
+// let bhagat = (price)=>{
+//     let discount ;
+// if(500>=price){
+//     discount = price*0/100;
+//     price = price- discount
+// }
+// else if(500<=price && 1000>=price){
+//     discount = price*5/100;
+//     price = price-discount;
+// }
+// else if(1000<=price){
+//     discount = price*10/100;
+//     price = price-discount;
+// }
+
+// return price;
+
+// }
+// console.log(bhagat(price))
+
+
+
+function greet(name = "Friend") {
+    console.log("Hello, " + name);
+  }
+  
+  greet("Bantu"); // Output: Hello, Bantu
+  greet();        // Output: Hello, Friend
+  
