@@ -445,12 +445,12 @@ let input = require('readline-sync');
 // question No 29.  //
 
 // // problem No 1 //
-let marks = {
-    harry: 90,
-    shubham: 9,
-    lovish: 56,
-    monika: 4,
-}
+// let marks = {
+//     harry: 90,
+//     shubham: 9,
+//     lovish: 56,
+//     monika: 4,
+// }
 // for (let i = 0 ; i <Object.keys(marks).length; i++){
 //     console.log('this marks of '+ Object.keys(marks)[i] + 'are ' + marks[Object.keys(marks)[i]]);
 
@@ -671,19 +671,17 @@ let marks = {
 
 // Question No 38. Fibonacci Series in looop //
 
-// let bhagat = require('readline-sync')
-// let N = bhagat.questionInt('Eter the Value: ')
+// let N = input.questionInt('Enter the value: ')
+// let x = 1;
 // let a = 0;
 // let b = 1;
 // let c;
-
-// while (b <= N) {
-// console.log(a,b);
-//     c = a+b;
-//     console.log(c);
+// while (x <= N) {
+//     console.log(a);
+//     c = a + b;
 //     a = b;
 //     b = c;
-
+//     x++
 // }
 
 // SECOND EXAMPLE IN Fibonacci Series //
@@ -1486,7 +1484,6 @@ let marks = {
 
 // let int = require('readline-sync');
 // let c = int.questionInt('enter the value: ')
-
 // let hasDL = true
 // function drivingEligibility(age,hasDL) {
 //   let isAdult = true;
@@ -1495,17 +1492,6 @@ let marks = {
 // 	return age && isAdult
 // }
 // console.log(drivingEligibility(age,hasDL))
-
-
-// let a = 10, b = 20, c = 11;
-// if (a++ > 0 || b-- > 0 && --c == 10) {
-//   console.log("Condition is true.");
-// } else {
-//   console.log("Condition is false.");
-// }
-// console.log(a, b, c);
-
-
 
 // let day = 3;
 
@@ -1915,8 +1901,8 @@ let marks = {
 //     }
 //   }
 //   console.log(trafficSignal(num, trafficLightColor));
-  
-  
+
+
 // let num = 2;
 // let trafficLightColor = 'Yellow'
 
@@ -1976,10 +1962,55 @@ let marks = {
 
 
 
-function greet(name = "Friend") {
-    console.log("Hello, " + name);
-  }
+// function greet(name = "Friend") {
+//     console.log("Hello, " + name);
+//   }
+
+//   greet("Bantu"); // Output: Hello, Bantu
+//   greet();        // Output: Hello, Friend
+
+
+
+// let greet = function(name) {
+//     return "Hello, " + name;
+//   };
+//   console.log(greet("Bantu")); // Output: Hello, Bantu
+
+
+// let arr = [1,2,3,4,5];
+// let b = []
+// const multiplyByTwo = (arr)=>{
+// 	//  Only change code below this line
+//     for(let i = 0; i<arr.length; i++){
+//         b.push(arr[i]*2)
+
+//     }
+
+// 	return b
+// }
+// console.log(multiplyByTwo(arr))
+
+
+
+// const student = {
+//     name: "Bantu",
+//     age: 19
+//   };
   
-  greet("Bantu"); // Output: Hello, Bantu
-  greet();        // Output: Hello, Friend
+//   const key = "name";
+// //   let   key1 = 'age'
+  
+//   console.log(student[key]);  
+//   console.log(student.age);    
+
+
+
+const student = {
+    name: "Bantu",
+    age: 19
+  };
+  
+  console.log("name" in student);  // ✅ true
+  console.log("class" in student); // ❌ false
+  
   
