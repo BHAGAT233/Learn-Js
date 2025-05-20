@@ -1,4 +1,4 @@
-let input = require('readline-sync');
+// let input = require('readline-sync');
 
 //question No 1. Ternary Operators //
 // let age= 20
@@ -1001,8 +1001,7 @@ let input = require('readline-sync');
 
 // problem No.1 //
 
-// let input = require('prompt-sync')();
-// let N = input('Enter the Number: ')
+// let N = input.questionInt('Enter the Number: ')
 // let a =1;
 // for(let i = 1; i<= N; i++){
 //     let b = ''
@@ -1021,8 +1020,7 @@ let input = require('readline-sync');
 // problem No.2 //
 // print the pattern in the loop //
 
-// let input = require('prompt-sync')();
-// let N = Number(input('Enter the number: '))
+// let N = input.questionInt('Enter the number: ');
 
 // for(let i = 1; i<=N; i++){
 //     let star =''
@@ -1049,9 +1047,7 @@ let input = require('readline-sync');
 // problem No. 3 //
 // Hollow Square Pattern...//
 
-// let input = require('prompt-sync')();
-// let N = Number(input('Entet the Number: '))
-
+// let N = input.questionInt('Entet the Number: ');
 // for(let i = 1; i<=N; i++){
 //    let star=''
 //    for (let j = 1; j<=N; j++){
@@ -1073,8 +1069,7 @@ let input = require('readline-sync');
 
 //butterfly Pattern...//
 
-// let input = require('prompt-sync')();
-// let N = Number(input('Enter the Number: '))
+// let N = input.questionInt('Enter the Number: ');
 // let a = N;
 // for (let i = 1; i <= N; i++) {
 //     let star = ''
@@ -1118,7 +1113,6 @@ let input = require('readline-sync');
 // problem No. 5.  //
 // Diomand Pattern...//
 
-// let input = require('readline-sync')
 // let N = input.questionInt('Enter the value: ')
 // let a = 1;
 // for (let i = 1; i <= N; i++) {
@@ -1156,7 +1150,6 @@ let input = require('readline-sync');
 // problem No. 5.  //
 // Hollow Diomand Pattern...//
 
-// let input = require('readline-sync')
 // let N = input.questionInt('Enter the value: ')
 // let a = 1;
 // for (let i = 1; i <= N; i++) {
@@ -1637,15 +1630,6 @@ let input = require('readline-sync');
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
 
-// let a = 843;
-// let count = 0;
-// a= a%10
-// count++
-// a = a/10
-
-// console.log(count);
-
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
 // Collatz Sequence Generator in function 
 
 // let int = require('prompt-sync')();
@@ -1778,7 +1762,7 @@ let input = require('readline-sync');
 //     return count;
 // }
 
-// console.log(countVowels("a_e_i_o_u")); 
+// console.log(countVowels("a_e_i_o_u_A_E_I_O_U")); 
 
 //--------------------------------------------------------------------------------------------------//
 
@@ -1976,6 +1960,7 @@ let input = require('readline-sync');
 //   };
 //   console.log(greet("Bantu")); // Output: Hello, Bantu
 
+//----------------------------------------------------------------------------------//
 
 // let arr = [1,2,3,4,5];
 // let b = []
@@ -1990,27 +1975,94 @@ let input = require('readline-sync');
 // }
 // console.log(multiplyByTwo(arr))
 
-
-
-// const student = {
-//     name: "Bantu",
-//     age: 19
-//   };
-  
-//   const key = "name";
-// //   let   key1 = 'age'
-  
-//   console.log(student[key]);  
-//   console.log(student.age);    
+//---------------------------------------------------------------//
 
 
 
-const student = {
-    name: "Bantu",
-    age: 19
-  };
-  
-  console.log("name" in student);  // ✅ true
-  console.log("class" in student); // ❌ false
-  
-  
+// let arr = [10, 15, 16, 9, 8];
+// let arr1 = ['boy', 'apple', 'cat', 'dog']
+
+// let a = arr1.sort();
+// console.log(a);
+
+// let arr = [5, 2, 9, 1, 3];
+
+// arr.sort((a, b) => {
+//   console.log("a =", a, ", b =", b);
+//   return a - b;
+// });
+
+
+
+
+
+
+
+// let input = require('prompt-sync')();
+// let N = Number(input('Enter the Value: '))
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let k = 2;
+// let arrlen = arr.length;
+// let i = 0;
+// let indexb = 0;
+// let count = 1;
+// let b = []
+// let len = arr.length;
+// while (arr.length > i) {
+
+//     if(count === k){
+//         b[indexb] = arr[i]
+//         arr.splice(i, 1)
+//         indexb++;
+//         count = 1;
+//     }
+//     count++;
+//     i++;
+// }
+// console.log(arr);
+
+
+
+// let arr = [10, 2, 3, 4, 5, 6, 7];
+// let k = 2;
+
+
+// const readline = require('readline');
+
+// const rl = readline.createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+// });
+
+// // Function to rotate the array with a gap of K
+// function rotateWithGap(arr, k) {
+//     let n = arr.length;
+//     let visited = Array(n).fill(false);
+//     let result = [];
+//     let index = k % n;
+
+//     for (let i = 0; i < n; i++) {
+//         while (visited[index]) {
+//             index = (index + 1) % n; // Skip visited
+//         }
+//         result.push(arr[index]);
+//         visited[index] = true;
+//         index = (index + k) % n;
+//     }
+
+//     console.log("Rotated Array:", result);
+// }
+
+// // Take input from user
+// rl.question("Enter array elements separated by space: ", (arrayInput) => {
+//     rl.question("Enter the value of K: ", (kInput) => {
+//         const arr = arrayInput.trim().split(" ").map(Number);
+//         const k = parseInt(kInput);
+
+//         rotateWithGap(arr, k);
+//         rl.close();
+//     });
+// });
+
+

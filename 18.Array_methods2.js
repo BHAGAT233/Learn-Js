@@ -69,50 +69,25 @@
 // end question 6. //
 
 
+// question 7. unshift(), concat(), join(), isArray(), forEach()
+
+// let month = ['january', 'february', 'march', 'April', 'may']
+
+// console.log(month);
+
+
+// month.forEach((e)=> console.log(e))
 
 
 
 
 
 
-// let a = [1, 2, 3,];
-// let b = [3, 2, 1]
-
-// let c = a.concat(b)
-// let d = [];
-// for (let i = 0; i < c.length; i++) {
-//     for (let j = i + 1; j < c.length; j++) {
-//         if (c[i] === c[j]) {
-//             if(!d.includes(c[j])){
-//                 d.push(c[j])
-//             }
-//         }
-//     }
-
-// }
-// console.log(d);
 
 
 
-// let a = [1,2,3,4,5];
-// let b = [3,6,8,9,5]
 
-// function dublicat(a, b){
-//     let c = a.concat(b)
-// let d = [];
-// for (let i = 0; i < c.length; i++) {
-//     for (let j = i + 1; j < c.length; j++) {
-//         if (c[i] === c[j]) {
-//             if(!d.includes(c[j])){
-//                 d.push(c[j])
-//             }
-//         }
-//     }
 
-// }
-//     return d
-// }
-// console.log(dublicat(a, b));
 
 
 

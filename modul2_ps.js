@@ -1,3 +1,5 @@
+let input = require('readline-sync');
+
 // question No 1. Write a program to take value N from the user and print the following pattern based on the user input. //
 // 1) N=5
 // * 
@@ -108,7 +110,7 @@
 // * *  
 // * 
 
-// let N = om.questionInt('Enter the value: ')
+// let N = input.questionInt('Enter the value: ')
 // let star = ''
 // for(let i=5; i>=1; i--){
 //     star = '';

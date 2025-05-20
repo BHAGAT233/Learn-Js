@@ -55,3 +55,124 @@
 // console.log(a, b, c);
 
 //--------------------------------------------------------------------//
+
+// let a = [1,2,3,4,5];
+// let b = [3,6,8,9,5]
+
+// function dublicat(a, b){
+//     let c = a.concat(b)
+// let d = [];
+// for (let i = 0; i < c.length; i++) {
+//     for (let j = i + 1; j < c.length; j++) {
+//         if (c[i] === c[j]) {
+//             if(!d.includes(c[j])){
+//                 d.push(c[j])
+//             }
+//         }
+//     }
+
+// }
+//     return d
+// }
+// console.log(dublicat(a, b));
+
+//--------------------------------------------------------------------------------//
+
+// let a = [1, 2, 3,];
+// let b = [3, 2, 1]
+
+// let c = a.concat(b)
+// let d = [];
+// for (let i = 0; i < c.length; i++) {
+//     for (let j = i + 1; j < c.length; j++) {
+//         if (c[i] === c[j]) {
+//             if(!d.includes(c[j])){
+//                 d.push(c[j])
+//             }
+//         }
+//     }
+
+// }
+// console.log(d);
+
+//-------------------------------------------------------------------//
+
+// let a = 153;
+//   let c = a;
+//    let b = a.toString().length;
+//    let r = 0;
+//    let s = 0 ;
+//    while(a!= 0){
+//     r = a%10
+//     s += r**b
+//     a = Math.floor(a/10);
+//    }
+//    if(s == c){
+//     console.log('yes');
+
+//    }
+//    else{
+//     console.log('no');
+
+//    }
+
+//---------------------------------------------------------------------------------//
+
+// let arr = [1, 2, 3, 4, 5]
+// let newarr3 = arr.reduce((h1, h2) => {
+//     return h1 + h2;
+// })
+// let b = []
+// for (let i = 0; i < arr.length; i++) {
+//     b.push(newarr3 - arr[i])
+// }
+// console.log(b);
+
+//----------------------------------------------------------------------------------//
+
+// let a = 12321;
+// let b = a;
+// let palindrome = 0
+// while(a!=0){
+//     r = a%10;
+//     palindrome =  palindrome*10+r;
+//     a = Math.floor(a/10)
+// }
+// b == palindrome ? console.log('Yes'): console.log('No');
+
+//-----------------------------------------------------------------------//
+
+// chack array sorted or Not if array soted so print yes else print No :
+
+// let arr = [10, 20, 30, 40, 50];
+// // convert in string
+// let a = arr.toString();
+
+// let b = arr.sort((x, y)=> x-y);
+// // sorted array to convert in string
+// b = b.toString()
+// // console.log(b);
+// // compair a and b, array sorted or not 
+// a === b ? console.log('Yes'): console.log('No');
+
+// second example of sorted Array, if array soted so print yes else print No //
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// let a = true;
+// for (let i = 0; i < arr.length - 1; i++) {
+
+//     console.log((arr[i] > arr[i + 1]), arr[i], arr[i+1]);
+
+//     if (arr[i] > arr[i + 1]) {
+//         a = false;
+//         break
+//     }
+// }
+// a ? console.log('yes') : console.log('no');
+
+//------------------------------------------------------------------------------------//
+
+
+
+
+
