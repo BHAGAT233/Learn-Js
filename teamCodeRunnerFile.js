@@ -1,3 +1,4 @@
+// let input = require('readline-sync')
 // function countVowels(str) {
 //     let count = 0;
 //     const vowels = "aeiouAEIOU";
@@ -6,7 +7,19 @@
 //             count++;
 //         }
 //     }
+//     return count;els(str) {
+//     let count = 0;
+//     const vowels = "aeiouAEIOU";
+//     for (let i = 0; i < str.length; i++) {
+//         if (vowels.includes(str[i])) {
+//             count++;
+//         }
+//     }
 //     return count;
+// }
+
+// let text = input.question('Enter a string: ');
+// console.log(`Number of vowels: ${countVowels(text)}`);
 // }
 
 // let text = input.question('Enter a string: ');

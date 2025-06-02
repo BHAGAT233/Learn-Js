@@ -1,4 +1,4 @@
-let input = require('readline-sync');
+// let input = require('readline-sync');
 
 // question No 1. Write a program to take value N from the user and print the following pattern based on the user input. //
 // 1) N=5
@@ -181,6 +181,223 @@ let input = require('readline-sync');
 
 // -------------------------------------------------------------------------------------------------------------------//
 
-// question No 55. Write a program to reverse the array and print the reversed array.//
+// QUESTION No 35. print the s-tage in nested loop.//
 
+// let bhagat = require('readline-sync')
+// let N = bhagat.questionInt('Enter the value: ')
 
+// for (let i=1; i<= N; i++){
+
+//     let str = "";
+//     for(let j=1; j <= N; j++){
+//         str += "#";
+//     }
+//     console.log(str);
+
+// }
+
+//----------------------------------------------------------------------------------------//
+
+// print the pattern in the loop //
+
+// let input = require('readline-sync');
+// let N = input.questionInt('Enter the number: ');
+// for(let i = 1; i<=N; i++){
+//     let star =''
+//     for(let j= 1; j<=i;j++){
+//         star+= '*'
+//     }
+//     console.log(star);
+
+// }
+// for(let i = 1; i<=N; i++){
+
+//     let star =''
+//     for(let j= 1; j<=i;j++){
+//         star+= '*'
+//     }
+//     console.log(star);
+
+// }
+
+//-------------------------------------------------------------------------------//
+
+// problem No. 3 //
+// Hollow Square Pattern...//
+
+// let N = input.questionInt('Entet the Number: ');
+// for(let i = 1; i<=N; i++){
+//    let star=''
+//    for (let j = 1; j<=N; j++){
+//       if (i==1|| i==N || j ==1 || j==N){
+//          star+=' *'
+//       }else{
+//          star+='  '
+//       }
+//    }
+//    console.log(star);
+
+// }
+
+//--------------------------------------------------------------------------------------//
+
+// problem No. 4 ................//
+
+//butterfly Pattern...//a
+
+// let N = input.questionInt('Enter the Number: ');
+// let a = N;
+// for (let i = 1; i <= N; i++) {
+//     let star = ''
+//     let space = ''
+//     let star1 = ''
+
+//     for (let j = 1; j <= i; j++) {
+//         star += '*'
+//     }
+//     for (let k = 1; k <= ((a - i) * 2); k++) {
+//         space += ' '
+//     }
+//     for (let l = 1; l <= i; l++) {
+//         star1 += '*'
+//     }
+//     console.log(star + space + star1);
+
+// }
+
+// for (let i = N-1; i >= 1; i--) {
+//     let star = '';
+//     let space = '';
+//     let star1 = '';
+
+//     for (let j = 1; j <= i; j++) {
+//         star += '*';
+//     }
+//     for (let k = 1; k <= ((N - i) * 2); k++) {
+//         space += ' ';
+//     }
+//     for (let l = 1; l <= i; l++) {
+//         star1 += '*';
+//     }
+//     console.log(star + space + star1);
+// }
+
+// End of the problem No. 4. //
+
+//-------------------------------------------------------------------------------------//
+
+// problem No. 5.  //
+// Diomand Pattern...//
+
+// let input = require('readline-sync');
+// let N = input.questionInt('Enter the value: ')
+// let a = 1;
+// for (let i = 1; i <= N; i++) {
+//     let star = ''
+//     let space = ''
+//     for (let j = 1; j <= N - i; j++) {
+//         space += ' '
+//     }
+//     for (let k = 1; k <= a; k++) {
+//         star += '*'
+//     }
+//     a += 2;
+//     console.log(space + star);
+// }
+// a -= 4;
+// for (let i = 1; i <= N; i++) {
+//     let star = ''
+//     let space = ''
+
+//     for (let j = 1; j <= i; j++) {
+//         space += ' '
+//     }
+//     for (let k = 1; k <= a; k++) {
+//         star += '*'
+//     }
+//     a -= 2;
+//     console.log(space + star);
+
+// }
+
+// End of the question No 5
+
+//--------------------------------------------------------------------------------------//
+
+// problem No. 5.  //
+// Hollow Diomand Pattern...//
+
+// let input = require('readline-sync');
+// let N = input.questionInt('Enter the value: ')
+// let a = 1;
+// for (let i = 1; i <= N; i++) {
+//     let star = ''
+//     // let space = ''
+
+//     for (let j = 1; j <= N - i; j++) {
+//         star += ' '
+//     }
+
+//     for (let k = 1; k <= a; k++) {
+//         if(k == 1 || k == a){
+//                     star += '*'
+//         }
+//           else{
+//               star += ' '
+//           }
+
+//     }
+//     a += 2;
+//     console.log( star);
+// }
+// a -= 4;
+// for (let i = 1; i <= N; i++) {
+//     let star = ''
+//     // let space = ''
+
+//     for (let j = 1; j <= i; j++) {
+//         star += ' '
+//     }
+
+//     for (let k = 1; k <= a; k++) {
+//         if(k == 1 || k == a){
+//             star += '*'
+//         }
+//         else{
+//             star += ' '
+//         }
+//     }
+//     a -= 2;
+//     console.log( star);
+
+// }
+
+// End of the question No. 5. //
+
+//--------------------------------------------------------------------------------------//
+
+// Hollow Pyramid Pattern 
+
+// let input = require('readline-sync');
+// let N = input.questionInt('Enter the value: ')
+// let a = 1;
+// for (let i = 1; i <= N; i++) {
+//     let star = ''
+//     // let space = ''
+
+//     for (let j = 1; j <= N - i; j++) {
+//         star += ' '
+//     }
+
+//     for (let k = 1; k <= a; k++) {
+//         if(k == 1 || k == a || i == N){
+//                     star += '*'
+//         }
+//           else{
+//               star += ' '
+//           }
+
+//     }
+//     a += 2;
+//     console.log( star);
+// }

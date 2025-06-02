@@ -242,7 +242,7 @@
 // question No. 14 star pattern question //
 
 // let n = 4;
-// // let star = ''
+// let star = ''
 // for (let i= 1; i<=n; i++){
 //     star = ''
 
@@ -258,12 +258,9 @@
 //         let j = 1;
 //     while (j<=i) {
 //         star += '*'
-//         j++;
-        
+//         j++; 
 //     }
-//     console.log(star);
-    
-    
+//     console.log(star); 
 // }
 
 // End of the Question No. 14//

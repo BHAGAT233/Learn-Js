@@ -15,7 +15,7 @@
 // let a1= arr1.filter((b)=>{
 //     return b<10;
 // })
-// console.log(a1,arr1);
+// console.log(a1);
 
 // End of the Question No. 2//
 

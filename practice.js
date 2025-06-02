@@ -1,4 +1,4 @@
-// let input = require('readline-sync');
+let input = require('readline-sync');
 
 //question No 1. Ternary Operators //
 // let age= 20
@@ -670,18 +670,19 @@
 //==========================================================================================================//
 
 // Question No 38. Fibonacci Series in looop //
-
+// let input = require('readline-sync')
 // let N = input.questionInt('Enter the value: ')
-// let x = 1;
+// let k = 1;
 // let a = 0;
 // let b = 1;
 // let c;
-// while (x <= N) {
+// let b1 = []
+// while (k <= N) {
 //     console.log(a);
 //     c = a + b;
 //     a = b;
 //     b = c;
-//     x++
+//     k++
 // }
 
 // SECOND EXAMPLE IN Fibonacci Series //
@@ -1021,7 +1022,6 @@
 // print the pattern in the loop //
 
 // let N = input.questionInt('Enter the number: ');
-
 // for(let i = 1; i<=N; i++){
 //     let star =''
 //     for(let j= 1; j<=i;j++){
@@ -1067,7 +1067,7 @@
 
 // problem No. 4 ................//
 
-//butterfly Pattern...//
+//butterfly Pattern...//a
 
 // let N = input.questionInt('Enter the Number: ');
 // let a = N;
@@ -1143,7 +1143,7 @@
 
 // }
 
-// End of the question No
+// End of the question No 5
 
 // -----------------------------------------------------------------------------------------//
 
@@ -1747,7 +1747,7 @@
 
 //---------------------------------------------------------------------------------------------------//
 
-//Question No. 10 count vowels in function //
+// Question No. 10 count vowels in function //
 
 // function countVowels(str) {
 //     let count = 0;
@@ -1904,19 +1904,19 @@
 // console.log(trafficSignal(num, trafficLightColor))
 
 
-// function countVowels(str) {
-//     let count = 0;
-//     const vowels = "aeiouAEIOU";
-//     for (let i = 0; i < str.length; i++) {
-//         if (vowels.includes(str[i])) {
-//             count++;
-//         }
-//     }
-//     return count;
-// }
+function countVowels(str) {
+    let count = 0;
+    const vowels = "aeiouAEIOU";
+    for (let i = 0; i < str.length; i++) {
+        if (vowels.includes(str[i])) {
+            count++;
+        }
+    }
+    return count;
+}
 
-// let text = input.question('Enter a string: ');
-// console.log(`Number of vowels: ${countVowels(text)}`);
+let text = input.question('Enter a string: ');
+console.log(`Number of vowels: ${countVowels(text)}`);
 
 
 
@@ -1994,10 +1994,6 @@
 
 
 
-
-
-
-
 // let input = require('prompt-sync')();
 // let N = Number(input('Enter the Value: '))
 
@@ -2066,3 +2062,39 @@
 // });
 
 
+// -------------------------------------------------------------------------------//
+
+//  this and arrow function in javascript| chai aur code # javascript 
+
+// const user = {
+//   username: 'bhagat',
+//   price : 999,
+
+//   welcomeMessage: function (){    
+//     console.log(`${this.username}, welcome to website`);
+
+//   }
+// }
+// user.welcomeMessage()
+// user.username = 'bantu'
+// user.welcomeMessage()
+
+//--------------------------------------------------------------------------------------//
+
+
+
+// let n = 5;
+// for(let i = 1; i<=n; i++){
+//     let str = '';
+
+//     for(let j = 1; j<=n; j++){
+//         if(j == n || j == 1|| i == n){
+//             str+= '*'
+//         }
+//         else{
+//             str+=' '
+//         }
+//     }
+//     console.log(str);
+    
+// }
