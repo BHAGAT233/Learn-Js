@@ -1904,22 +1904,19 @@ let input = require('readline-sync');
 // console.log(trafficSignal(num, trafficLightColor))
 
 
-function countVowels(str) {
-    let count = 0;
-    const vowels = "aeiouAEIOU";
-    for (let i = 0; i < str.length; i++) {
-        if (vowels.includes(str[i])) {
-            count++;
-        }
-    }
-    return count;
-}
+// function countVowels(str) {
+//     let count = 0;
+//     const vowels = "aeiouAEIOU";
+//     for (let i = 0; i < str.length; i++) {
+//         if (vowels.includes(str[i])) {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
 
-let text = input.question('Enter a string: ');
-console.log(`Number of vowels: ${countVowels(text)}`);
-
-
-
+// let text = input.question('Enter a string: ');
+// console.log(`Number of vowels: ${countVowels(text)}`);
 
 //-------------------------------------------------------------------------------------//
 
@@ -2098,3 +2095,55 @@ console.log(`Number of vowels: ${countVowels(text)}`);
 //     console.log(str);
     
 // }
+
+
+
+
+// let int = require('readline-sync')
+// let a = int.questionInt('Enter the first number: ')
+// let b = int.questionInt('Enter the second number:')
+// let c = int.questionInt('Enter the third number: ')
+// let d = int.questionInt('Enter the fourth number:')
+
+// if(a > b && a > c && a < d ||(a > b && a < c && a > d)|| (a < b && a > c && a > d)){
+//     console.log(a);
+// }
+// else if(b > a && b > c && b < d || (b > a && b < c && b > d) || (b < a && b > c && b > d)){
+//     console.log(b);
+// }
+// else if(c > a && c > b && c < d || (c > a && c < b && c > d) || (c < a && c > b && c > d)){
+//     console.log(c);
+// }
+// else{
+//     console.log(d);
+// }
+
+
+// let int = require('readline-sync')
+// let a = int.questionInt('Enter the first number: ')
+// let b = int.questionInt('Enter the second number:')
+// let c = int.questionInt('Enter the third number: ')
+// let d = int.questionInt('Enter the fourth number:')
+// let e = int.questionInt('Enter the fourth number:')
+// let f = int.questionInt('Enter the fourth number:')
+// let g = int.questionInt('Enter the fourth number:')
+// let h = int.questionInt('Enter the fourth number:')
+
+
+// if(a>b && a>c && a>d && a>e && a>f && a<g && a<h || (a>b && a>c && a>d && a>e && a<f && a<g && a>h)||((a>b && a>c && a>d && a<e && a<f && a>g && a>h))||(a>b && a>c && a>d && a<e && a<f && a>g && a>h)||(a>b && a>c && a<d && a>e && a<f && a>g && a>h)||(a>b && a<c && a>d && a<e && a<f && a>g && a>h)){
+//     console.log(a);
+// }
+
+
+// End of the question No. 53. //
+
+
+
+
+
+
+
+
+
+//------------------------------------------------------------------------------------------//
+
