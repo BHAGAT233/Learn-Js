@@ -2093,7 +2093,7 @@ let input = require('readline-sync');
 //         }
 //     }
 //     console.log(str);
-    
+
 // }
 
 
@@ -2146,4 +2146,55 @@ let input = require('readline-sync');
 
 
 //------------------------------------------------------------------------------------------//
+
+// map(), filter(), reduce()  => yeh method aar item me kuch badlaw karta hain but origel array ko vhange nahi karta hain;
+
+// map() => ;
+
+// let arr1 = [10, 20, 30, 4, 40, 50];
+
+// let a = arr1.map((i, Array)=> {
+//     // console.log(i,  Array);
+
+//     return i+1;
+// })
+// console.log(a,arr1);
+
+
+// filter() => yeh method condition base work karta hain  ;
+
+// let num = [10, 2, 30, 3, 8, 80, 5];
+
+// let num1 = num.filter((a,index, arr)=> {
+//     // console.log(index);
+
+//     return a>10;
+
+// })
+// console.log(num1);
+
+// reduce() => yeh method array ke sabi value ko total nikalta hai ;
+
+// let arr2 = [1, 2, 3, 5, 6];
+
+// let sum = arr2.reduce((h1, h2)=> {
+//     return h1+h2; 
+
+// })
+// // console.log(sum);
+
+// for(let i = 0; i<arr2.length; i++){
+//     console.log(sum-i);
+
+// }
+
+
+
+let int = require('readline-sync');
+let x = int.questionInt('enter the value: ')
+
+
+
+
+
 

@@ -3,7 +3,7 @@
 // let arr = [45, 23, 21]
 // let a = arr.map((value, index, Array)=>{
 //     // console.log(value, index, Array);
-//     return value +index;
+//     return value +1;
 // })
 // console.log(a);
 
@@ -13,7 +13,7 @@
 
 // let arr1 = [45, 23, 21, 0, 3, 5]
 // let a1= arr1.filter((b)=>{
-//     return b<10;
+//     return b>5;
 // })
 // console.log(a1);
 

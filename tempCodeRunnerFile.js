@@ -1,29 +1,4 @@
-let N = input.questionInt('Enter the value: ')
-let a = 1;
-for (let i = 1; i <= N; i++) {
-    let star = ''
-    let space = ''
-    for (let j = 1; j <= N - i; j++) {
-        space += ' '
-    }
-    for (let k = 1; k <= a; k++) {
-        star += '*'
-    }
-    a += 2;
-    console.log(space + star);
-}
-a -= 4;
-for (let i = 1; i <= N; i++) {
-    let star = ''
-    let space = ''
-
-    for (let j = 1; j <= i; j++) {
-        space += ' '
-    }
-    for (let k = 1; k <= a; k++) {
-        star += '*'
-    }
-    a -= 2;
-    console.log(space + star);
-
-}
+n 3
+let arr = [10, 20, 2, 30, 4, 60];
+let arr1 = arr.slice(1,3)
+console.log(arr1);
