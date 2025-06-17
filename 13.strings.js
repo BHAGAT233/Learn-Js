@@ -419,7 +419,7 @@
 // console.log(`${greeting}, ${name}! Kaise ho?`);
 
 
-
+//----------------------------------------------------------------------------------//
 // let now = new Date();
 // console.log(now.getMinutes()); // e.g. 27
 
@@ -448,7 +448,10 @@
 // console.log(
 //   `Current time: ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`
 // );
+ 
+//------------------------------------------------------------------------//
 
+// // this method gives milliseconds  ;
 // console.log(Date.now());
 
 
@@ -463,19 +466,6 @@
 // console.log(lastNumber); // Output: 40
 
 
-// let arr = [1, 2, 1, 10, 3, 10, 9, 7, 3, 4, 4, 4];
-// let d = []
-// for (let i = 0; i < arr.length; i++) {
-//     for (let j = i + 1; j < arr.length; j++) {
-//         if (arr[i] === arr[j]) {
-//             if(!d.includes(arr[i])){
-//                 d.push(arr[i])
-//             }
-
-//         }
-//     }
-// }
-// console.log(d);
 
 
 
