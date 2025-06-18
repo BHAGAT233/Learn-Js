@@ -95,3 +95,16 @@ yeh dono methods JavaScript me Date object ko acche, readable format main badaln
 
 //  toLocaleString()  = > Date + Time dono ko ek readable, local (Indian) format me deta hain।
 
+
+
+
+// let a = ['()', '{}', '[]']
+
+// for(let i = 0; i<a.length; i++){
+//     console.log(a[i]);
+    
+// }
+
+
+//  console.log(Math.floor((z-y)/x))
+
