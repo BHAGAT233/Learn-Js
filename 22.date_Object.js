@@ -13,7 +13,7 @@
 // console.log(today);
 
 //-----------------------------------------------------------------------//
- 
+
 //  Current Date/Time Print = >
 
 // Only for corrent Date = > ;
@@ -83,7 +83,7 @@
 yeh dono methods JavaScript me Date object ko acche, readable format main badalne ke kiye use hote hain */
 
 // toDateString() = > Date ko formstting karne ke liye Readable form me ;
- 
+
 // example 
 
 // let now = new Date();
@@ -102,9 +102,56 @@ yeh dono methods JavaScript me Date object ko acche, readable format main badaln
 
 // for(let i = 0; i<a.length; i++){
 //     console.log(a[i]);
-    
+
 // }
 
 
 //  console.log(Math.floor((z-y)/x))
 
+// let isPalindrome = function (x) {
+
+//     let p = 0
+//     while (x != 0) {
+//        let  r = x % 10;
+//         p = p * 10 + r;
+//         x = Math.floor(x / 10)
+//     }
+
+//    return x == p ? console.log(true) : console.log(false);
+
+
+// }
+// console.log(isPalindrome(121));
+
+// let l1 = [9,9,9,9,9,9,9]
+// let l2 = [9,9,9,9]
+// let a = Number(l1.reverse().join(''))
+// let b = Number(l2.reverse().join(''))
+// let c = a+b
+// let d = c.toString().split('').map(Number).reverse();
+// console.log(d);
+
+
+
+
+
+// console.log(x);
+
+
+// let addTwoNumbers = function (l1, l2) {
+
+//     let a = l1.reverse().join('')
+//     let b = l2.reverse().join('')
+//     let c = Number(a)
+//     let d = Number(b)
+//     let e = c + d
+//     return e.toString().split('').map(Number).reverse();
+
+// };
+// console.log(addTwoNumbers(l1, l2));
+
+// let arr = [10, 2, 5, 8, 3, 4];
+
+// let a = arr.splice(0,2)
+
+// console.log(a,arr);

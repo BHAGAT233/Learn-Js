@@ -1,2 +1,2 @@
-e("2025-08-15");  // YYYY-MM-DD
-// console.log(date1); // O
+ing().split('').map(Number);
+// console.log(arr); // [8, 0, 7]

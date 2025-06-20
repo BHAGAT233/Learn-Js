@@ -215,9 +215,9 @@
 // *****************************Level 3: Practice & Logic Building*************************** ;
 
 // Question 1. String ko Reverse karna ;
-let str = "name is bantu";
-let reversed = str.split("").reverse().join("");
-console.log(reversed);
+// let str = "name is bantu";
+// let reversed = str.split("").reverse().join("");
+// console.log(reversed);
 
 // Second Example = > reverse String with loop ;
 // let a = 'name is bhagat';
