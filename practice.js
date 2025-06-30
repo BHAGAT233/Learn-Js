@@ -221,7 +221,7 @@ let input = require('readline-sync');
 
 // END OF THE QUESTION//
 
-// ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+// ----------------------------------------------------------------------------------------------------------//
 
 // question No 18. esa program me first 10 days ka 5 rupies, 5 days ka 10rupies, 3 days ka 15 rupies and bhache days ka 20 rupies  ho jayega in sab ka totale money nikalna hai. //
 

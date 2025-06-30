@@ -231,3 +231,120 @@
 // console.log(result2);  // Output: 25
 
 // Question No 2 
+
+// let a = Math.pow(5, 2)
+// let b = Math.pow(2, 2)
+// console.log(a,b);
+
+// Question No 3 = >
+
+// let a1 = Math.pow(2, 2)
+// let a2 = Math.pow(2, 2)
+// console.log(a1,a2);
+
+//-------------------------------------------------------------------------------------------------------//
+
+// 11. Math.sqrt() = > Math.sqrt() ek JavaScript method hai jo kisi number ka square root (वर्गमूल) return karta hai 
+// Syntax: Math.sqrt(25) = > Output: 5  ;
+
+// Question No. 1 = > ;
+
+// let root1 = Math.sqrt(16);   // Output: 4
+// let root2 = Math.sqrt(81);   // Output: 9
+// let root3 = Math.sqrt(2);    // Output: 1.414...
+
+// console.table([root1,root2,root3]);
+
+// Question No. 2 = > ;
+
+// let a = Math.sqrt(324)
+// console.log(a); // Output: 18 ;
+
+// let b = Math.sqrt(100)
+// console.log(b);// Output: 10 
+
+// Question No 3 = > ;
+
+// let area = 49;
+// let side = Math.sqrt(area);  // Square ka ek side
+
+// console.log("Side of square: " + side);  // Output: 7
+
+//------------------------------------------------------------------------------------------------------------------------//
+
+// 12. Math.sign() => Math.sign() ek JavaScript method hai jo batata hai ki koi number positive hai, negative hai, ya zero. ;
+// Syntax: Math.sign(5) // Output:1  // positive number hain to 1 return karega aur nagtive hoga to -1 return karega 
+
+//Example Question No. 1 = > 
+
+// console.log(Math.sign(10));     // Output: 1
+// console.log(Math.sign(-5));     // Output: -1
+// console.log(Math.sign(0));      // Output: 0
+// console.log(Math.sign(-0));     // Output: -0
+// console.log(Math.sign("hello")); // Output: NaN
+
+// Question No. 2 = > Real-life Example;
+
+// let temperature = -9;
+
+// if (Math.sign(temperature) === -1) {
+//   console.log("Bahut thand hai ❄️");
+// } else {
+//   console.log("Thik thak mausam hai 🌤️");
+// }
+
+// Question No. 3 = > ;
+
+// let int = require('readline-sync');
+// let n = int.questionInt('enter the value: ')
+// let a = Math.sign(n)
+// // console.log(a);
+// let c = ''
+// if (a === 1) {
+//     c = 'aaj mosam thik hain'
+// }
+// else {
+//     c = 'bhahut cold hain aaj'
+// }
+// console.log(c);
+
+// practice Question = > ;
+
+// console.log(Math.sign(-5)); // Output: -1;
+// console.log(Math.sign('sam')); // Output: NaN
+
+// ---------------------------------------------------------------------------------------------------------------------//
+
+// 13. Math.cbrt(x) = > Math.cbrt() ek JavaScript method hai jo kisi number ka cube root (घनमूल) return karta hai.;
+// Yaani: x ka aisa number jise 3 times multiply karne par original number mile.;
+//  Cube root: Math.cbrt(27) ka matlab hota hai: konsa number × konsa number × konsa number = 27;
+// Jawab: 3, kyunki 3 × 3 × 3 = 27 ;
+// Syntax: Math.cbrt(8) // Output: ∛8 = 2 ;
+
+//Exaple Question No. 1 => ;
+
+// console.log(Math.cbrt(27));     // Output: 3
+// console.log(Math.cbrt(64));     // Output: 4
+// console.log(Math.cbrt(-8));     // Output: -2
+// console.log(Math.cbrt(2));      // Output: 1.2599210498948732 
+
+// Question No 2 = > Math.cbrt() method number ka cube root return kartha hain;
+
+// console.log(Math.cbrt(27)); // (3 x 3 x 3 = 27) Output: 3
+// console.log(Math.cbrt(64)); // (4 x 4 x 4 = 64) Output: 4
+// console.log(Math.cbrt(125)); // ( 5x 5 x 5 = 27) Output: 5
+
+// Question No. 3 = > print cube root number in for....loop ; 
+
+// for (let i = 1; i <= 125; i++) {
+
+//     if (Number.isInteger(Math.cbrt(i))) { // Number.isInteger() method chack kartha hain ki number Integer hain yeh nahi;
+//         console.log(`${i}:is a perfect cube`);
+
+//     }
+//     i++
+// }
+
+//---------------------------------------------------------------------------------------------------------------------//
+
+
