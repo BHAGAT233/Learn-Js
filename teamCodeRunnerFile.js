@@ -204,5 +204,22 @@
 
 // -------------------------------------------------------------------------------------------------------//
 
+// yeh count katha hain ki Even divisors and Odd divisors //
+
+// let n = 7
+// let odd = 0;
+// let even = 0;
+// for(let i = 1; i <= n; i++) {
+//     if(n % i === 0) { 
+//         if(i % 2 === 0) {
+//             even++;
+//         } else {
+//             odd++;
+//         }
+//     }
+// }
+
+// console.log("Odd divisors:", odd);
+// console.log("Even divisors:", even);
 
 

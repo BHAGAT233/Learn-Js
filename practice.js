@@ -2188,13 +2188,11 @@ let input = require('readline-sync');
 
 // }
 
-
-
-let int = require('readline-sync');
-let x = int.questionInt('enter the value: ')
+//----------------------------------------------------------------------------------------------------------------------//
 
 
 
 
 
 
+console.log(490/100);

@@ -347,4 +347,65 @@
 
 //---------------------------------------------------------------------------------------------------------------------//
 
+// 14. Math.log(x) => Math.log(x) ek JavaScript method hai jo kisi number x ka natural logarithm return karta hai.;
+//  Syntax: Math.log(x)
+
+// Example Question No. 1 => ;
+
+// console.log(Math.log(1));     // Output: 0    (kyunki loge(1) = 0)
+// console.log(Math.log(Math.E)); // Output: 1  (kyunki loge(e) = 1)
+// console.log(Math.log(10));    // Output: ~2.302
+// console.log(Math.log(0));     // Output: -Infinity
+// console.log(Math.log(-5));    // Output: NaN
+
+// Question No. 2 =>  	Natural logarithm ;
+
+// let x = 1000;
+// let logVal = Math.log(x);
+
+// console.log(`loge(${x}) = ${logVal}`);
+
+// Question No. 3 => universal input question;
+
+// let int = require('readline-sync');
+// let N = int.questionInt('Enter the value: ')
+
+// let logarithm = Math.log(N)
+
+// console.log(`loge(${N}) = ${logarithm}`);
+
+//------------------------------------------------------------------------------------------------------------------//
+
+// 15. Math.log10(x) => Math.log10(x) ek JavaScript method hai jo kisi number x ka log base 10 return karta hai.;
+// Syntax: Math.log10(1) // Output: 0 ;
+
+// Example Question No.1 = >  Agar x ≤ 0 hua toh result NaN ya -Infinity milta hai.;
+
+// console.log(Math.log10(1));     // Output: 0       (kyunki log10(1) = 0)
+// console.log(Math.log10(10));    // Output: 1       (kyunki log10(10) = 1)
+// console.log(Math.log10(100));   // Output: 2       (kyunki log10(100) = 2)
+// console.log(Math.log10(1000));  // Output: 3       (kyunki log10(1000) = 3)
+// console.log(Math.log10(0));     // Output: -Infinity /
+// console.log(Math.log10(-5));    // Output: NaN
+
+// Question No. 2 => ;
+
+// Kisi number me kitne digits hain (shortcut):
+// let number = 1000;
+// let digits = Math.floor(Math.log10(number)) + 1;
+
+// console.log("Digits: " + digits);  // Output: 4
+
+//--------------------------------------------------------------------------------------------------------------------//
+
+// 16. Math.log2(x) => Math.log2(x) ek JavaScript method hai jo kisi number x ka log base 2 return karta hai. ;
+
+
+
+
+
+
+
+
+
 
