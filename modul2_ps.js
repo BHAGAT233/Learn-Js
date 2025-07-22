@@ -10,7 +10,7 @@
 
 
 // let N = 5;
-// let star = '';0
+// let star = '';
 // for (let i = 0; i < N; i++) {
 //     star += '* ';
 //     console.log(star);
@@ -68,7 +68,7 @@
 //         star+= ' ';
 //     }
 //     for(let k = 1; k<=i; k++){
-//         star+= '*';
+//         star+= '*' +" ";
 //     }
 //     console.log(star);
 
@@ -401,3 +401,32 @@
 //     a += 2;
 //     console.log( star);
 // }
+
+//---------------------------------------------------------------------------------------------------------//
+
+// let input = require('readline-sync')
+// let N = input.questionInt('Enter the value N: ')
+
+// let a = 1;
+// for (i = 1; i <= N; i++) {
+//     let star = ""
+//     for (j = 1; j <= i; j++) {
+
+//         star += a * 2 +" "
+//         a++
+//     }
+//     if (i == 1) {
+//         console.log(1);
+
+//     }
+//     console.log(star);
+    
+// }
+
+
+
+
+
+
+
+

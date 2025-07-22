@@ -2195,4 +2195,17 @@ let input = require('readline-sync');
 
 
 
-console.log(490/100);
+
+
+// function a(arr) {
+//     let cout = 0;
+//     for(let i= 0; i<arr.length; i++){
+//         if(arr[i] == arr[i]){
+            
+//         }
+//     }
+//     return cout
+// }
+// console.log(a(arr));
+
+

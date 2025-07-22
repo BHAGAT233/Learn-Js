@@ -469,4 +469,20 @@
 // console.log(lastNumber); // Output: 40
 
 
+// setTimeout(() => {
+//   for(let i = 0; i< 5 ; i++){
+//     console.log(i);
+    
+//   }
+// }, 3000);
 
+
+// let total = 10;
+// let totalTime = 5000;
+// let delay = totalTime / total;
+
+// for (let i = 1; i <= total; i++) {
+//   setTimeout(() => {
+//     console.log(i);
+//   }, i * delay); // i*delay se har number time ke sath chalega
+// }

@@ -204,7 +204,7 @@
 
 // -------------------------------------------------------------------------------------------------------//
 
-// yeh count katha hain ki Even divisors and Odd divisors //
+// yeh count kartha hain ki Even divisors and Odd divisors //
 
 // let n = 7
 // let odd = 0;
@@ -221,5 +221,67 @@
 
 // console.log("Odd divisors:", odd);
 // console.log("Even divisors:", even);
+
+//-------------------------------------------------------------------------------------------------------------//
+
+
+// let a = [1,1, 2, 3,3, 4, 5];
+// function dublicat(a) {
+//     let d = [];
+//     for (let i = 0; i < a.length; i++) {
+//         for (let j = i + 1; j < a.length; j++) {
+//             if (a[i] === a[j]) {
+//                 if (!d.includes(a[j])) {
+//                     d.push(a[j])
+//                 }
+//             }
+//         }
+
+//     }
+//     return d
+// }
+// console.log(dublicat(a));
+
+
+
+// let arr = [1, 2, 3, 4, 5, 6]
+
+// let newarr = arr.filter((n)=>{
+//     return n/2;
+// })
+// console.log(arr);
+// console.log(newarr);
+
+// let arr1 = arr.filter((n)=>{
+//     return n/2
+// })
+// console.log(arr);
+// console.log(arr1);
+
+//----------------------------------------------------------------------------------------------------------// 
+
+// Har number ko setTimeout ke andar alag delay deke chalana hoga. Agar total 3 second (3000ms) ka time hai, aur 5 numbers print karne hain, to:
+
+// let total = 10;
+// let totalTime = 5000;
+// let delay = totalTime / total;
+
+// for (let i = 1; i <= total; i++) {
+//   setTimeout(() => {
+//     console.log(i);
+//   }, i * delay); // i*delay se har number time ke sath chalega
+// }
+
+//--------------------------------------------------------------------------------------------------------//
+
+// yeh code 2 secound ke bad code run hoge;
+
+// setTimeout(() => {
+//   for(let i = 0; i< 5 ; i++){
+//     console.log(i);
+    
+//   }
+// }, 2000);
+
 
 
