@@ -155,3 +155,110 @@ yeh dono methods JavaScript me Date object ko acche, readable format main badaln
 // let a = arr.splice(0,2)
 
 // console.log(a,arr);
+
+
+
+// let a = {};
+
+// let b = Object.create(a);
+
+// console.log(b.__proto__ === a);
+
+// let a = "hello world"
+
+// let b = a.split('')
+// console.log(b);
+
+// function reverseWords(str) {
+//     return str.split(' ').map(word => word.split('').reverse().join('')).join(' ');
+// }
+
+// console.log(reverseWords("hello world"));
+
+
+// function maxDifference(arr) {
+//   let max = Math.max(...arr);
+//   let min = Math.min(...arr);
+//   return max - min;
+// }
+
+// console.log(maxDifference( [1, 2, 3, 4, 5])); // Output: 8
+
+
+// function longestCommonPrefix(strs) {
+//   if (strs.length === 0) return "";
+
+//   // Start with the first word as prefix
+//   let prefix = strs[0];
+
+//   // Compare prefix with each word
+//   for (let i = 1; i < strs.length; i++) {
+//     while (strs[i].indexOf(prefix) !== 0) {
+//       prefix = prefix.slice(0, -1); // Remove last character
+//       if (prefix === "") return "";
+//     }
+//   }
+
+//   return prefix;
+// }
+// console.log(longestCommonPrefix(["dog", "racecar", "car"]));
+// console.log(longestCommonPrefix(["flower", "flow", "flight"])); 
+
+
+
+
+
+
+
+// let a =  "PYTHON is FUN!"
+
+// let b = a.split(' ').join('')
+// let count = 0;
+// for(let i = 0; i<b.length; i++){
+//     if(b[i] == b[i].toLocaleUpperCase()){
+//         if(b[i]== '!'){
+
+//         }
+//         else{
+//             count++
+//         }
+//     }
+// }
+// console.log(count);
+
+
+// console.log( Array.isArray({}));
+// console.log([1, 2] + [3, 4]);
+// const x = [1, 2, 3];
+
+// x.length = 0;
+
+// console.log(x);
+
+// const a =1;
+// a = 1
+// console.log(a);
+
+
+// console.log(0.1 + 0.2 === 0.3)
+// console.log([..."hello"]);
+// let a = 1; if (a = 0) { console.log("yes"); } else { console.log("no"); }
+// console.log([] == ![]);
+
+// 
+
+
+// function digitalRoot(num) {
+//     while (num >= 10) {
+//         let sum = 0;
+//         while (num > 0) {
+//             sum += num % 10;    // Add last digit
+//             num = Math.floor(num / 10); // Remove last digit
+//         }
+//         num = sum;
+//     }
+//     return num;
+// }
+
+// console.log(digitalRoot(123)); // Output: 6
+
