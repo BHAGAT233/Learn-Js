@@ -222,7 +222,6 @@
 
 // for(let i = 0; i<NavGrukulData.length; i++){
 //     console.log(`${i} : name: ${NavGrukulData[i].name}, age: ${NavGrukulData[i].age}, city: ${NavGrukulData[i].city}`);
-
 // }
 
 
@@ -279,32 +278,6 @@
 //       }
 //     }
 //   ]
-// };
-
-
-
-// let school = {
-//     name: "Navgurukul",
-//     location: "India",
-//     students: [
-//         {
-//             name: "Bantu",
-//             age: 19,
-//             address: {
-//                 city: "Bastar",
-//                 state: "Chhattisgarh"
-//             }
-//         },
-
-//         {
-//             name: "Sonu",
-//             age: 18,
-//             address: {
-//                 city: "Raipur",
-//                 state: "Chhattisgarh"
-//             }
-//         }
-//     ]
 // };
 
 // for (let i = 0; i < school.students.length; i++) {

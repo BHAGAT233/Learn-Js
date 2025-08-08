@@ -57,9 +57,9 @@
 //  let modulus=(n%m);
 //  console.log(modulus);
 
- // End of the Question No 4. //
+// End of the Question No 4. //
 
- // --------------------------------------------------------------------------------------------------------------------//
+// --------------------------------------------------------------------------------------------------------------------//
 
 // Question No 5. Find the person is elisible to vote(Yes or No) //
 
@@ -117,21 +117,21 @@
 // let input = require('readline-sync')
 // let n = input.questionInt('Enter the number: ')
 
-    // let sum = 0;
-    // for (let i = 1; i < n; i++){
-    //     if (n % i == 0){
-    //         sum+= i;
-    //     }
-    // }
-    // sum == n ? console.log('parpact number') : console.log('Not a parpact number');
+// let sum = 0;
+// for (let i = 1; i < n; i++){
+//     if (n % i == 0){
+//         sum+= i;
+//     }
+// }
+// sum == n ? console.log('parpact number') : console.log('Not a parpact number');
 
-    // second Example //
-    // let sum = 0;
-    // for (let i = 1; i <= n / 2; i++) {
-    //     n%i == 0 ? sum += i : null;
-    // }
-    // sum == n ? console.log('parpact number') : console.log('Not a parpact number');
-    
+// second Example //
+// let sum = 0;
+// for (let i = 1; i <= n / 2; i++) {
+//     n%i == 0 ? sum += i : null;
+// }
+// sum == n ? console.log('parpact number') : console.log('Not a parpact number');
+
 // End of the question No. 8 ///
 
 //-----------------------------------------------------------------------------------------------------------------------//
@@ -177,7 +177,7 @@
 //         }
 //     }
 //     console.log(star);
-    
+
 // }
 
 // End of the question No. 10 //
@@ -250,7 +250,7 @@
 //         star+= '*'
 //     }
 //     console.log(star);
-    
+
 // }
 
 // for(let i=1; i<=n; i++){
@@ -283,7 +283,7 @@
 //     }
 //     if(count==2){
 //         console.log(i);
-        
+
 //     }
 // }
 
@@ -463,6 +463,33 @@
 // }
 
 // console.log("Duplicate numbers:", d);
+
+
+
+
+//--------------------------------------objects practices revition****************************;
+
+
+// let navgurukuldata = [
+//     {name: 'bhagat', age:19, city: 'barsur,'},
+//     {name: 'sam', age:18, city: 'jagdalpur,'},
+//     {name: 'bhagat', age:19, city: 'dantewada,'}
+// ];
+
+let school = {
+    name: "Navgurukul",
+    location: "India",
+    students: [
+        {
+            name: "Bantu",age: 19,
+            address: {city: "Bastar",state: "Chhattisgarh" }
+        },
+        {
+            name: "Sonu",age: 18,
+            address: {city: "Raipur",state:"Chhattisgarh"}
+        }
+    ]
+};
 
 
 
