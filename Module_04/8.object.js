@@ -3,8 +3,8 @@
 // let int = require('readline-sync');
 // let a = int.questionInt('Enter the value: ')
 // let b = false;
-// for(let i= 1; i<=a; i++){
-//     if(i**2 == a){
+// for(let i= 1; i<=a; i*=2){
+//     if(i == a){
 //        b = true;
 //     }
 // }
@@ -368,7 +368,7 @@
 
 //-------------------------------------------------------------------------------------------------//
 
-// Object.values(obj) => ye maithod kisi bhi object ki sari valuais ko ek array mein nikaal kar deta hai.;
+// Object.values(obj) => yeh method kisi bhi object ki sari valuais ko ek array mein nikaal kar deta hai.;
 
 // let studentDAta = {
 //     name : 'kartik',

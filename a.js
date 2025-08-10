@@ -476,20 +476,59 @@
 //     {name: 'bhagat', age:19, city: 'dantewada,'}
 // ];
 
-let school = {
-    name: "Navgurukul",
-    location: "India",
-    students: [
-        {
-            name: "Bantu",age: 19,
-            address: {city: "Bastar",state: "Chhattisgarh" }
-        },
-        {
-            name: "Sonu",age: 18,
-            address: {city: "Raipur",state:"Chhattisgarh"}
-        }
-    ]
-};
+// let school = {
+//     name: "Navgurukul",
+//     location: "India",
+//     students: [
+//         {
+//             name: "Bantu",age: 19,
+//             address: {city: "Bastar",state: "Chhattisgarh" }
+//         },
+//         {
+//             name: "Sonu",age: 18,
+//             address: {city: "Raipur",state:"Chhattisgarh"}
+//         }
+//     ]
+// };
+
+
+
+// let navgurukuldata = [
+//     { name: 'bhagat', age: 19, city: 'barsur' },
+//     { name: 'sam', age: 18, city: 'jagdalpur' },
+//     { name: 'bhagat', age: 19, city: 'dantewada' }
+// ];
+
+// let sam = {
+//     name: 'bhagat',
+//     age: 19,
+//     city: 'bastar',
+//     pincode: 494441,
+//     dstrict: 'dantewada',
+// }
+
+// let a = { name: 'bhagat', age: 19, city: 'bastar' }
+// let a1 = { address: 'barsur', pincode: 494441, class: '12' }
+// let a3 = { friend: 'sachin', friend1: 'karthik' }
+
+// console.log(Object.assign( a, a1, a3));
+
+// let a = { name: 'bhagat', age: 19 };
+// let a1 = { city: 'bastar' };
+
+// console.log(Object.assign({}, a, a1));
+// console.log(a); // { name: 'bhagat', age: 19 }  ✅ same as before
+
+// Object.assign(a, a1);
+// console.log(a); // { name: 'bhagat', age: 19, city: 'bastar' }  ⚠ changed
+
+
+
+
+
+
+
+
 
 
 

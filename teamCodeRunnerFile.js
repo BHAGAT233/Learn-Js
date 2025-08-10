@@ -283,5 +283,49 @@
 //   }
 // }, 2000);
 
+//-------------------------------------------------------------------------------//
 
+// isa question me target number ke Array index print karna hain 
 
+// let arr = [2, 7, 11, 15, 8, 1, 6, 3]
+// let target = 9;
+// function indexNumber(arr, target) {
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = i + 1; j < arr.length; j++) {
+//             if (arr[i] + arr[j] === target) {
+//                 return [i, j]
+//             }
+//         }
+//     }
+// }
+// console.log(indexNumber(arr,target));
+
+// ---------------------------------------------------------------------------------//
+
+// Number serise partan in Array || Date: August 9, 2025;
+// 1
+// 12
+// 123
+
+// Start: number = 0
+// i = 0: number = 0 * 10 + a[0] = 0 + 1 = 1
+// i = 1: number = 1 * 10 + a[1] = 10 + 2 = 12
+// i = 2: number = 12 * 10 + a[2] = 120 + 3 = 123
+
+// let a = [1, 2, 3];
+// let number = 0;
+
+// for (let i = 0; i < a.length; i++) {
+//     number = number * 10 + a[i]; 
+//     console.log(number);
+    
+// }
+// // console.log(number); // 123
+
+//---------------------------------------------------------------------------//
+
+// Array ko number me convert karn ;
+
+// let a = [1, 2, 3];
+// let number = +a.join("");
+// console.log(number); // 123

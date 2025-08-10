@@ -759,3 +759,27 @@ Yes
 
 
 // END OF THE QUESTION NO 42.//
+
+//------------------------------------------------------------------------------------//
+
+// collagesquireNumber 
+
+// let n = 5;
+// function collagesquireNumber(n) {
+//     let arr = []
+
+//     while (n > 1) {
+//         arr.push(n)
+//         if(n%2==0){
+//             n = n/2
+//         }
+//         else{
+//             n = n*3+1
+//         }
+//     }
+//     arr.push(1)
+//     return arr
+// }
+// console.log(collagesquireNumber(n)); // output: [ 5, 16, 8, 4, 2, 1 ];
+
+
