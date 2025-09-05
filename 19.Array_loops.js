@@ -33,6 +33,5 @@ let num = [3, 5, 1, 2, 4];
 
 for (let i in num) {
     console.log(num[i]);
-
 }
 

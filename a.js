@@ -140,7 +140,6 @@
 
 // let om = require('readline-sync')
 // let N = om.questionInt('Enter the value N: ')
-
 // let i = 0;
 // let j = 1;
 // let k = 0;
@@ -521,6 +520,9 @@
 
 // Object.assign(a, a1);
 // console.log(a); // { name: 'bhagat', age: 19, city: 'bastar' }  ⚠ changed
+
+
+
 
 
 
