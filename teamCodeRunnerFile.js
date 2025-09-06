@@ -351,6 +351,7 @@ let input = require('readline-sync')
 // Find the maximum sum of two distinct integers in the array.
 
 // let a = [7, 2, 1, 1, 5, 3, 3];
+
 // a = [...new Set(a)]
 
 // a.sort((x,y)=> y-x);
@@ -360,6 +361,97 @@ let input = require('readline-sync')
 //-------------------------------------------------------------------------------------------//
 
 
+// let a = nums1 = [1, 2]
+// let b = nums2 = [6, 14]
 
+// let c; 
+// function mergetwoarr(a, b) {
+//     c = a.concat(b)
+//     c = c[1]
+//     return c
+// }
+// console.log(mergetwoarr(a, b));
+
+// let a = "abcdef"
+// let b = "gh"
+// function substringSearch(a,b) {
+//     let n = a.length;
+//     let m = b.length;
+
+//     for (let i = 0; i <= n - m; i++) {
+//         let j = 0;
+//         while (j < m && a[i + j] === b[j]) {
+//             j++;
+//         }
+//         if (j === m) {
+//             return i; 
+//         }
+//     }
+//     return -1; 
+// }
+
+// console.log(substringSearch(a,b));  
+
+// function removeDuplicates(S) {
+//     let seen = new Set();
+//     let result = [];
+
+//     for (let ch of S) {
+//         if (!seen.has(ch)) {
+//             seen.add(ch);
+//             result.push(ch);
+//         }
+//     }
+//     return result.join('');
+// }
+
+// // -------- Testing --------
+// console.log(removeDuplicates("programming")); // "progamin"
+// console.log(removeDuplicates("aabbcc"));      // "abc"
+// console.log(removeDuplicates("AaBbAa"));      // "AaBb"
+
+
+// let str = "aaabbc";
+// let count = {};
+
+// // loop through string
+// for (let char of str) {
+//   count[char] = (count[char] || 0) + 1;
+// }
+
+// console.log(count);
+// // { a: 3, b: 2, c: 1 }
+
+
+let str = "bhagat";
+let result = "";
+let count = 1;
+for (let i = 0; i < str.length; i++) {
+  if (str[i] === str[i + 1]) {
+    count++;
+  } else {
+    result += str[i] + count; 
+    count = 1;
+  }
+}
+console.log(result);
+
+// let arr = [-2, -3, 4, -1, -2, 1, 5, -3]
+// function maxSubarraySum(arr) {
+//   let maxSum = arr[0];  // सबसे पहला element ही मान लेते हैं
+//   let currentSum = arr[0];
+
+//   for (let i = 1; i < arr.length; i++) {
+//     // या तो नया element खुद start करेगा subarray,
+//     // या फिर पुराने sum में जुड़ जाएगा
+//     currentSum = Math.max(arr[i], currentSum + arr[i]);
+
+//     // सबसे बड़ा sum update करो
+//     maxSum = Math.max(maxSum, currentSum);
+//   }
+
+//   return maxSum;
+// }
+// console.log(maxSubarraySum(arr));
 
 
