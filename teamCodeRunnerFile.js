@@ -423,18 +423,18 @@ let input = require('readline-sync')
 // // { a: 3, b: 2, c: 1 }
 
 
-let str = "bhagat";
-let result = "";
-let count = 1;
-for (let i = 0; i < str.length; i++) {
-  if (str[i] === str[i + 1]) {
-    count++;
-  } else {
-    result += str[i] + count; 
-    count = 1;
-  }
-}
-console.log(result);
+// let str = "bhagat";
+// let result = "";
+// let count = 1;
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] === str[i + 1]) {
+//     count++;
+//   } else {
+//     result += str[i] + count; 
+//     count = 1;
+//   }
+// }
+// console.log(result);
 
 // let arr = [-2, -3, 4, -1, -2, 1, 5, -3]
 // function maxSubarraySum(arr) {
@@ -453,5 +453,4 @@ console.log(result);
 //   return maxSum;
 // }
 // console.log(maxSubarraySum(arr));
-
 
