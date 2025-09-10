@@ -210,14 +210,14 @@
 
 //  Array of objects पर loop:  ;
 
-// let NavGrukulData = [
-//   { name: 'bantu', age: 19, city: 'bastar' },
-//   { name: 'dhurwa', age: 20, city: 'bijapur' },
-//   { name: 'sam', age: 18, city: 'dheli' },
-// ];
+let NavGrukulData = [
+  { name: 'bantu', age: 19, city: 'bastar' },
+  { name: 'dhurwa', age: 20, city: 'bijapur' },
+  { name: 'sam', age: 18, city: 'dheli' },
+];
 
-// // console.log(NavGrukulData[0].name);
-// // console.log(NavGrukulData[1].name);
+// console.log(NavGrukulData[0].name);
+// console.log(NavGrukulData[1].name);
 // console.log(NavGrukulData[2].name, NavGrukulData[2].age, NavGrukulData[2].city);
 
 // for(let i = 0; i<NavGrukulData.length; i++){
@@ -242,8 +242,8 @@
 //     }
 // }
 
-// console.log(student.Subjects['prasentage']);
-// console.log(student.Subjects['totalmark']);
+// console.log(student.Subjects.totalmark);
+// console.log(student.Subjects.prasentage);
 
 // for(let i in student){
 //     console.log(`${i}: ${student[i]}`);
@@ -553,6 +553,12 @@
 
 
 //--------------------------------------------CRUD Operations----------------------;
+
+
+
+
+
+
 
 
 
