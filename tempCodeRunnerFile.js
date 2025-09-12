@@ -1,12 +1,5 @@
-bhagat";
-let result = "";
-let count = 1;
-for (let i = 0; i < str.length; i++) {
-  if (str[i] === str[i + 1]) {
-    count++;
-  } else {
-    result += str[i] + count; 
-    count = 1;
-  }
+0, 20, 30]
+function sum(...a) {
+  return a.reduce((a, b) => a + b)
 }
-console.log(result);
+console.log(sum(10,20,30)); // 60
