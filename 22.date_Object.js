@@ -36,7 +36,7 @@
 // console.log(date1); // Output: 2025-08-15T00:00:00.000Z
 
 // ------------------------------------------------------------------------------------------------------------//
-// console.log(new Date().getHours());  // e.g., 14
+// console.log(new Date().getHours());  // e.g., 14//
 
 // console.log(new Date().getMilliseconds());  // e.g., 523
 
@@ -261,4 +261,6 @@ yeh dono methods JavaScript me Date object ko acche, readable format main badaln
 // }
 
 // console.log(digitalRoot(123)); // Output: 6
+
+
 
