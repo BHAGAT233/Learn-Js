@@ -210,11 +210,11 @@
 
 //  Array of objects पर loop:  ;
 
-let NavGrukulData = [
-  { name: 'bantu', age: 19, city: 'bastar' },
-  { name: 'dhurwa', age: 20, city: 'bijapur' },
-  { name: 'sam', age: 18, city: 'dheli' },
-];
+// let NavGrukulData = [
+//   { name: 'bantu', age: 19, city: 'bastar' },
+//   { name: 'dhurwa', age: 20, city: 'bijapur' },
+//   { name: 'sam', age: 18, city: 'dheli' },
+// ];
 
 // console.log(NavGrukulData[0].name);
 // console.log(NavGrukulData[1].name);
@@ -553,6 +553,7 @@ let NavGrukulData = [
 
 
 //--------------------------------------------CRUD Operations----------------------;
+
 
 
 
